@@ -21,8 +21,9 @@ def directory_analysis():
     directory = get_dir_to_analyze()
     all_files = os.listdir(directory)
     files = []
+    extensions = ['.cpp', '.C', '.c', '.h', '.hpp']
     for file in all_files:
-        if ('.cpp' or '.C' or '.c' or '.hpp' or '.h') in file:
+        if any(x in file for x in extensions):
             files.append(file)
     data = []
     for base_file in files:
