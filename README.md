@@ -22,7 +22,7 @@ Generate report of unit tests for C/C++ projects
 11. type `py -m pip install -r requirements.txt`
 12. use the script by typing `RaportGenerator.py -h`
     
-# How to use it on one and only one true system
+# How to use it on superior Linux system
 
 1. python is always pre-installed, but make sure that you have python3
 2. git is always pre-installed so use it to download this repo
