@@ -8,7 +8,7 @@ Generate report of unit tests for C/C++ projects
 ## Python requirements:
 * XlsxWriter
 
-# How run this on windows ?
+# How to use it on windows ?
 
 1. make sure that you have installed python 3.6 or higher [python](https://www.python.org/)
 2. make sure that you have git installed ( not necessary ) [git](https://git-scm.com/)
